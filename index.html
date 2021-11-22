@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baumans&family=Comfortaa:wght@300;600&family=Manrope:wght@200&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <title>Clock_XD</title>
+</head>
+<body>
+   <div class="top">
+      <div><img src="./Clock_XD/clock_logo.png" class="logo" alt="clocklogo"></div>
+        <div class="time">
+            <span class="tim"><span>Time</span><div><span id="hour"></span><br>&nbsp;&nbsp;hours</div><p>:</p><div><span id="min"></span><br>&nbsp;&nbsp;mins</div><p>:</p><div ><span id="sec"></span><br>&nbsp;&nbsp;secs</div><div id="ampm"></div></span>
+           </div>
+        </div>
+       <div class="shade sh1"></div><div class="shade sh2"></div>
+   </div>
+   <div class="group">
+       <div class="left-tb" id="left-kd">
+           <div class="left-tb1">
+               <div class="left-tb-img">
+                   <img class="img2" src="./Clock_XD/wake_up.svg" alt="">
+                   <img class="img2" src="./Clock_XD/lunch_time.svg" alt="">
+                   <img class="img2" src="./Clock_XD/nap_time.svg" alt="">
+               </div>
+               <div class="left-tb-sel">
+                   <p><span class="spacebar1">Set wake up time</span><!-- /*// start here-->
+                       <select name="wakee" id="wake">
+                       <option value="0">DEFAULT</option>
+                       <option value="1">1AM-2AM</option>
+                       <option value="2">2AM-3AM</option>
+                       <option value="3">3AM-4AM</option>
+                       <option value="4">4AM-5AM</option>
+                       <option value="5">5AM-6AM</option>
+                       <option value="6">6AM-7AM</option>
+                       <option value="7">7AM-8AM</option>
+                       <option value="8">8AM-9AM</option>
+                       <option value="9">9AM-10AM</option>
+                       <option value="10">10AM-11AM</option>
+                       <option value="11">11AM-12AM</option>
+                       <option value="12">12AM-1PM</option>
+                       <option value="13">1PM-2PM</option>
+                       <option value="14">2PM-3PM</option>
+                       <option value="15">3PM-4PM</option>
+                       <option value="16">4PM-5PM</option>
+                       <option value="17">5PM-6PM</option>
+                       <option value="18">6PM-7PM</option>
+                       <option value="19">7PM-8PM</option>
+                       <option value="20">8PM-9PM</option>
+                       <option value="21">9PM-10PM</option>
+                       <option value="22">10PM-11PM</option>
+                       <option value="23">11PM-12PM</option>
+                       <option value="24">12PM-1AM</option>
+                   </select>
+                    </p>
+                   <p><span class="spacebar2">Set lunch time</span>
+                       <select name="lunchh" id="lunch">
+                       <option value="0" selected>DEFAULT</option>
+                       <option value="1">1AM-2AM</option>
+                       <option value="2">2AM-3AM</option>
+                       <option value="3">3AM-4AM</option>
+                       <option value="4">4AM-5AM</option>
+                       <option value="5">5AM-6AM</option>
+                       <option value="6">6AM-7AM</option>
+                       <option value="7">7AM-8AM</option>
+                       <option value="8">8AM-9AM</option>
+                       <option value="9">9AM-10AM</option>
+                       <option value="10">10AM-11AM</option>
+                       <option value="11">11AM-12AM</option>
+                       <option value="12">12AM-1PM</option>
+                       <option value="13">1PM-2PM</option>
+                       <option value="14">2PM-3PM</option>
+                       <option value="15">3PM-4PM</option>
+                       <option value="16">4PM-5PM</option>
+                       <option value="17">5PM-6PM</option>
+                       <option value="18">6PM-7PM</option>
+                       <option value="19">7PM-8PM</option>
+                       <option value="20">8PM-9PM</option>
+                       <option value="21">9PM-10PM</option>
+                       <option value="22">10PM-11PM</option>
+                       <option value="23">11PM-12PM</option>
+                       <option value="24">12PM-1AM</option> 
+                       </select>
+                    </p>
+                    <p><span class="spacebar3">Set nap time</span>
+                    <select name="napp" id="nap">
+                       <option value="0">DEFAULT</option>
+                       <option value="1">1AM-2AM</option>
+                       <option value="2">2AM-3AM</option>
+                       <option value="3">3AM-4AM</option>
+                       <option value="4">4AM-5AM</option>
+                       <option value="5">5AM-6AM</option>
+                       <option value="6">6AM-7AM</option>
+                       <option value="7">7AM-8AM</option>
+                       <option value="8">8AM-9AM</option>
+                       <option value="9">9AM-10AM</option>
+                       <option value="10">10AM-11AM</option>
+                       <option value="11">11AM-12AM</option>
+                       <option value="12">12AM-1PM</option>
+                       <option value="13">1PM-2PM</option>
+                       <option value="14">2PM-3PM</option>
+                       <option value="15">3PM-4PM</option>
+                       <option value="16">4PM-5PM</option>
+                       <option value="17">5PM-6PM</option>
+                       <option value="18">6PM-7PM</option>
+                       <option value="19">7PM-8PM</option>
+                       <option value="20">8PM-9PM</option>
+                       <option value="21">9PM-10PM</option>
+                       <option value="22">10PM-11PM</option>
+                       <option value="23">11PM-12PM</option>
+                       <option value="24">12PM-1AM</option>
+                    </select>
+                   </p>
+               </div>
+           </div>
+           <div class="left-tb2" id="gdwish">HELLO, WELCOME!!</div>
+           <button class="left-tb3" onclick="setTime()">Set Time!</button>
+       </div>
+       <div id="right-tb" >
+           <div id="right-tb-text"> let's have some lunch !! </div>
+           <div id="right-tb-img"></div>
+       </div>
+   </div>
+    <script src="./clock.js"></script>
+</body>
+</html>

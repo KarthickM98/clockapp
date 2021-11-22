@@ -1,0 +1,196 @@
+body{
+background: #3D087B;
+font-family: 'Baumans', cursive;
+}
+.top{
+    display: flex;
+    flex-direction: row;
+    height: 130px;
+    width: 100%;
+}
+.logo{
+    margin: 59px 0px 0px 124px;
+}
+.time{
+    color: #3D087B;
+    background: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: bold;
+    font-size: 20px;
+    height: 130px;
+    width: 540px;
+    margin: 42px 120px 0px 400px;
+    border-radius: 10px;
+    padding: 0px 0px 0px 20px;
+    display: flex;
+    flex-direction: row; 
+ }
+ /* clock time display */
+.tim{
+     padding-top: 20px;
+     font-size: 20px;
+     display: flex;
+     flex-direction: row;
+     justify-content: space-around;
+}
+.tim>div{
+    height: 90px;
+    width: 82px;
+    background: #F6E2FF;
+    border-radius: 5px;
+    padding-left: 20px;
+}
+.tim span{
+    margin-top: 20px;
+    padding: 5px;
+}
+#hour,#min,#sec{
+    font-size: 45px;
+}
+#ampm{
+    height: 50px;
+    width: 42px;
+    margin-left: 5px;
+    padding: 20px;
+    font-size: 40px;
+    font-weight: 200;
+    color: white;
+    background: url(./Clock_XD/AM_svg.svg);   
+}
+.shade{
+    position: absolute;
+    border-radius: 10px;
+}
+.sh1{
+    top: 63px;
+    right: 170px;
+    height: 130px;
+    width: 420px;
+    z-index: -1;
+    background: #EDEDED;
+}
+.sh2{
+    top: 75px;
+    right: 210px;
+    height: 130px;
+    width: 350px;
+    z-index: -2;
+    background: #996fa7;
+}
+.group{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.left-tb{
+    margin:25px 0px 0px 70px;
+    height: 400px;
+    width: 45%;
+    margin-top: 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.left-tb1{
+    margin-top:80px;
+    padding: 20px 0px;
+    border-radius: 10px;
+    background:#FFFFFF;
+    height: 290px;
+    width: 95%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.left-tb-img{
+    height: 90%;
+    width: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: #FFFFFF;
+    border-left: 2px solid #c2c2c2;
+    margin: 10px 0px 0px 20px;
+}
+.left-tb-img>img{
+    height: 50px;
+    position: relative;
+    left: -17px;
+    background: #FFFFFF;
+}
+.left-tb-sel{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 20px;
+    font-family: manrope,sans-serif;
+    color: #3D087B;
+}
+.spacebar1{margin-right: 15px;}
+.spacebar2{margin-right: 40px;}
+.spacebar3{margin-right: 55px;}
+.left-tb2{
+    height: 80px;
+    width: 551px;
+    margin: 10px 0px;
+    border-radius: 5px;
+    color: #FFFFFF;
+    background: #6E54EC;
+    font-size: 27px;
+    padding: 20px 0px 20px 20px;
+}
+.left-tb3{
+    height: 50px;
+    width: 300px;
+    text-align: center;
+    background-image: linear-gradient(to left,#6E54EC,#CB52F8,#FC5EFF,#F1A7C5);
+    border-radius: 5px;
+    border: transparent;
+    color: #FFFFFF;
+    font-size: 25px;
+    font-weight: 200;
+    font-family: 'Manrope', sans-serif;
+}
+.left-tb3:hover{
+    background-image: linear-gradient(to right,#6E54EC,#CB52F8,#FC5EFF,#F1A7C5);
+}
+#right-tb{
+    color: #8E53F0;
+    font-size: 2rem;
+    padding: 1rem;
+    background: white;
+    margin: 80px 40px 0px -80px;
+    height: 440px;
+    width: 457px;
+    border-radius: 10px;
+}
+#right-tb-img{
+    height: 474px;
+    width: 536px;
+    position: absolute;
+    right: 120px;
+    top: 216px;
+    background-image: url(./Clock_XD/lunch_image.svg);
+    background-repeat: no-repeat;
+}
+select{
+    background: #DDF5FF;
+    border-radius: 4px;
+    border: transparent;
+    width: 280px;
+    height: 25px; 
+    padding: 0px 30px;
+}
+
+#dyna-blk{
+    width: 300px;
+    background: #CB52F8;
+    color: white;
+    font-size: 20px;
+    margin: 10px 0px 10px 0px;
+    padding: 10px 0px;
+    border-radius: 10px;
+    text-align: center;
+
+}
